@@ -147,7 +147,9 @@ const singlePostQuery = defineQuery(`
     mainImage,
 
     views,
-    tags
+    views,
+    tags,
+    "authorName": author->name
   }
 `);
 
