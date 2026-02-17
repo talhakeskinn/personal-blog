@@ -1,0 +1,22 @@
+{
+  "post": {
+    "_id": "60908a5b-a8bd-4c95-97fc-feb611a9cf3f",
+    "authorRef": "0de35252-a9f4-4468-a3ce-cb3cb9bd4a73",
+    "language": "en",
+    "resolvedAuthorName": "Mina Goren",
+    "title": "UX in the Age of AI: Designing for Trust, Business Value, and Human Control"
+  },
+  "authorDoc": {
+    "_createdAt": "2026-02-10T17:39:59Z",
+    "_id": "0de35252-a9f4-4468-a3ce-cb3cb9bd4a73",
+    "_rev": "F7xHg03va2kC20ApZfvihf",
+    "_type": "author",
+    "_updatedAt": "2026-02-10T17:42:17Z",
+    "name": "Mina Goren",
+    "role": "Admin",
+    "slug": {
+      "_type": "slug",
+      "current": "mina-goren"
+    }
+  }
+}
