@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --mint-50: #f2fbf7;
+    --mint-200: #cdeee2;
+    --mint-500: #3fbf9b;
+    --ink-900: #000000;
+    /* Pure Black */
+    --ink-600: #475569;
+    --bg-page: #ffffff;
+  }
+
+  .dark {
+    --mint-50: #09090b;
+    /* zinc-950 */
+    --mint-200: #18181b;
+    /* zinc-900 */
+    --mint-500: #059669;
+    /* emerald-600 */
+    --ink-900: #ffffff;
+    /* Pure White */
+    /* zinc-100 */
+    --ink-600: #a1a1aa;
+    /* zinc-400 */
+    --bg-page: #202020;
+    /* Windows 11 Dark Bg */
+  }
+
+  body {
+    @apply transition-colors duration-300 leading-relaxed;
+    background-color: var(--bg-page);
+    color: var(--ink-900);
+  }
+
+  /* Smooth transition for all elements */
+  *,
+  *::before,
+  *::after {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background: var(--mint-200);
+  color: black;
+}
+
+.dark ::selection {
+  background: var(--mint-500);
+  color: white;
+}
+
+/* Hide scrollbar for elements with no-scrollbar class */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

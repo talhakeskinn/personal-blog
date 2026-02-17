@@ -1,0 +1,66 @@
+
+> blog-mint@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.5
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/22) ...
+   Generating static pages (5/22) 
+   Generating static pages (10/22) 
+   Generating static pages (16/22) 
+ ✓ Generating static pages (22/22)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /_not-found                          879 B          89.3 kB
+├ ● /[locale]                            219 B           161 kB
+├   ├ /en
+├   └ /tr
+├ ● /[locale]/blog                       2.35 kB         164 kB
+├   ├ /en/blog
+├   └ /tr/blog
+├ ƒ /[locale]/category/[...slug]         1.23 kB         162 kB
+├ ● /[locale]/hakkimizda                 156 B          88.6 kB
+├   ├ /en/hakkimizda
+├   └ /tr/hakkimizda
+├ ● /[locale]/iletisim                   156 B          88.6 kB
+├   ├ /en/iletisim
+├   └ /tr/iletisim
+├ ƒ /[locale]/posts/[slug]               1.69 kB         156 kB
+├ ƒ /[locale]/yazar/[slug]               219 B           161 kB
+├ ƒ /api/draft-mode/disable              0 B                0 B
+├ ƒ /api/draft-mode/enable               0 B                0 B
+├ ƒ /api/like                            0 B                0 B
+├ ƒ /api/view                            0 B                0 B
+├ ○ /apple-icon-1gp61b.png               0 B                0 B
+├ ○ /icon-1gp61b.ico                     0 B                0 B
+├ ○ /icon-1gp61b.png                     0 B                0 B
+├ ○ /icon-1gp61b.svg                     0 B                0 B
+├ ○ /icon.png                            0 B                0 B
+├ ○ /robots.txt                          0 B                0 B
+├ ○ /sitemap.xml                         0 B                0 B
+└ ○ /studio/[[...tool]]                  1.71 MB        1.85 MB
++ First Load JS shared by all            88.4 kB
+  ├ chunks/7023-0ad4280bc9a942dd.js      31.7 kB
+  ├ chunks/fd9d1056-5c2bcca3bec7f0aa.js  53.6 kB
+  └ other shared chunks (total)          3.08 kB
+
+
+ƒ Middleware                             38.7 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+

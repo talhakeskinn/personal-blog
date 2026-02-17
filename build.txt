@@ -1,0 +1,27 @@
+  ▲ Next.js 14.2.5
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+
+> Build error occurred
+Error: 
+[next-intl] Could not locate request configuration module.
+
+This path is supported by default: ./(src/)i18n/request.{js,jsx,ts,tsx}
+
+Alternatively, you can specify a custom location in your Next.js config:
+
+const withNextIntl = createNextIntlPlugin(
+  './path/to/i18n/request.tsx'
+);
+
+    at o (file:///C:/Users/Talha/Documents/Projects/personal-blog/node_modules/next-intl/dist/esm/production/plugin/utils.js:1:64)
+    at m (file:///C:/Users/Talha/Documents/Projects/personal-blog/node_modules/next-intl/dist/esm/production/plugin/getNextConfig.js:1:774)
+    at p.webpack (file:///C:/Users/Talha/Documents/Projects/personal-blog/node_modules/next-intl/dist/esm/production/plugin/getNextConfig.js:1:3410)
+    at getBaseWebpackConfig (C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next\dist\build\webpack-config.js:1825:32)
+    at async Promise.all (index 1)
+    at async Span.traceAsyncFn (C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next\dist\trace\trace.js:154:20)
+    at async webpackBuildImpl (C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next\dist\build\webpack-build\impl.js:136:21)
+    at async C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next\dist\build\index.js:1003:111
+    at async Span.traceAsyncFn (C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next\dist\trace\trace.js:154:20)
+    at async build (C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next\dist\build\index.js:366:9)

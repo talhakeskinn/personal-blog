@@ -1,0 +1,37 @@
+{
+    "Navbar": {
+        "home": "Ana Sayfa",
+        "blog": "Blog",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "gallery": "Galeri"
+    },
+    "Home": {
+        "headline": "MANŞET",
+        "readMore": "Devamını Oku",
+        "noImage": "Görsel Yok",
+        "aboutTitle": "Hakkımızda",
+        "whoWeAre": "Biz Kimiz?",
+        "contactTitle": "İletişim",
+        "reachUs": "Bize Ulaşın",
+        "sendMessage": "Mesaj Gönderin",
+        "send": "Gönder"
+    },
+    "BlogPage": {
+        "loading": "Yükleniyor...",
+        "noImage": "Görsel Yok",
+        "noDate": "Tarih Yok",
+        "readMore": "Devamını Oku",
+        "noResults": "Sonuç Bulunamadı",
+        "noResultsDesc": "Bu kategoride henüz bir yazı paylaşılmamış.",
+        "viewAll": "Tüm Yazıları Gör"
+    },
+    "BlogSidebar": {
+        "filter": "Filtrele",
+        "allPosts": "Tüm Yazılar",
+        "searchPlaceholder": "Blogda ara..."
+    },
+    "Post": {
+        "readingTime": "{minutes} dk okuma"
+    }
+}

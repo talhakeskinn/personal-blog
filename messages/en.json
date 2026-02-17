@@ -1,0 +1,37 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "blog": "Blog",
+        "about": "About",
+        "contact": "Contact",
+        "gallery": "Gallery"
+    },
+    "Home": {
+        "headline": "Headline",
+        "readMore": "Read More",
+        "noImage": "No Image",
+        "aboutTitle": "About Us",
+        "whoWeAre": "Who We Are?",
+        "contactTitle": "Contact",
+        "reachUs": "Reach Us",
+        "sendMessage": "Send Message",
+        "send": "Send"
+    },
+    "BlogPage": {
+        "loading": "Loading...",
+        "noImage": "No Image",
+        "noDate": "No Date",
+        "readMore": "Read More",
+        "noResults": "No results found",
+        "noResultsDesc": "No posts found in this category yet.",
+        "viewAll": "View All Posts"
+    },
+    "BlogSidebar": {
+        "filter": "Filter",
+        "allPosts": "All Posts",
+        "searchPlaceholder": "Search in blog..."
+    },
+    "Post": {
+        "readingTime": "{minutes} min read"
+    }
+}

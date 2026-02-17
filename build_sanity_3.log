@@ -1,0 +1,33 @@
+
+> blog-mint@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.5
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Talha\Documents\Projects\personal-blog\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+Failed to compile.
+
+./node_modules/@sanity/document-internationalization/dist/index.js
+Module not found: Package path ./compiler-runtime is not exported from package C:\Users\Talha\Documents\Projects\personal-blog\node_modules\react (see exports field in C:\Users\Talha\Documents\Projects\personal-blog\node_modules\react\package.json)
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./sanity.config.ts
+
+./node_modules/sanity-plugin-internationalized-array/dist/index.js
+Module not found: Package path ./compiler-runtime is not exported from package C:\Users\Talha\Documents\Projects\personal-blog\node_modules\react (see exports field in C:\Users\Talha\Documents\Projects\personal-blog\node_modules\react\package.json)
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@sanity/document-internationalization/dist/index.js
+./sanity.config.ts
+
+
+> Build failed because of webpack errors
